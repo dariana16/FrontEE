@@ -1,0 +1,139 @@
+* {
+    font-family: Roboto;
+}
+
+.inicio {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #1CD1B0;
+    width: 100%;
+height: 38px;
+left: 0px;
+top: 0px;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+padding: 8px;
+}
+
+h1 {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #00669F;
+    width: 100%;
+height: 101px;
+left: 0px;
+top: 20px;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+padding: 25px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+}
+
+.box {
+    display: inline-block;
+    Width: 300px;
+    Height: 500px;
+    background-color:  #F3F3F3;
+    position: relative;
+    top: 285px;
+    left: 32px;
+    right: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 32px;
+}
+
+.img-azul {
+    position: relative ;
+    z-index: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.heart {
+    position: absolute ;
+    z-index: 5;
+    left: 5%;
+right: 0%;
+top: 4.25%;
+bottom: 6.25%;
+}
+
+.imgb {
+    position: absolute;
+width: 120px;
+height: 118px;
+left: 90px;
+top: 100px;
+border-radius: 60px;
+box-shadow:0px 5px 3px rgba(0, 0, 0, 0.20) ;
+}
+h2 {
+    position: absolute;
+width: 122px;
+height: 35px;
+left: 90px;
+top: 210px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-transform: uppercase;
+}
+
+.harl {
+    position: absolute;
+width: 222px;
+height: 35px;
+left: 70px;
+top: 200px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+}
+
+.info {
+position: absolute;
+width: 267px;
+height: 113px;
+left: 18px;
+top: 265px;
+}
+
+.boton {
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #00669F;
+    position: absolute;
+width: 128.78px;
+height: 48.52px;
+left: 87px;
+top: 415px;
+text-align: center;
+color: #F3F3F3;
+}
+
+footer {
+    box-sizing: border-box;
+    position: absolute;
+    background-color:#00669F;
+    color: #F3F3F3;
+    width: 100%;
+height: 51px;
+left: 0px;
+top: 1000px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+padding: 15px;
+}

@@ -1,0 +1,47 @@
+
+.encabezado {
+    background-color: black;
+    color: white;
+}
+
+.aparte {
+    background-color: #F0A83E;
+}
+
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:  auto;
+    height: 550px;
+}
+
+.productos {
+    background-color:  #FBFAF6;
+}
+
+.precio {
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.info {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.mail {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
+
+.fin {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    text-align: center;
+}
+
