@@ -1,0 +1,118 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #222222;
+    color:  #F3F3F3;
+    position: relative;
+width: 100%;
+height: 100px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px ;
+    margin-left: 20px;
+
+}
+
+main {
+    background-color: #d63636;
+    display: flex;
+    justify-content:stretch;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+width: 234px;
+height: 80px;
+left: 20px;
+top: 10px;
+}
+
+
+.delivery {
+    position: absolute;
+width: 490px;
+height: 350px;
+left: 19px;
+top: 135px;
+border-radius: 5px;
+}
+.promo {
+    position: absolute;
+    width: 400px;
+height: 28px;
+left: 38.98px;
+top: 155px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #FC200C;
+}
+
+.medio {
+    color: white;
+    font-style: normal;
+}
+
+.pizza {
+    position: absolute;
+width: 491px;
+height: 350px;
+left: 550px;
+top: 135px;
+background: #FFFFFF;
+border-radius: 5px;
+font-weight: bold;
+font-style: normal;
+
+}
+
+.titulo {
+    line-height: 30px;
+}
+.pfall {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+width: 92px;
+height: 129px;
+left: 300px;
+top: 85px;   
+}
+
+h3 {
+    color: #FC200C;
+    text-align: center;
+}
+
+footer {
+box-sizing: border-box;
+position: absolute;
+width: 99%;
+height: 150px;
+background: #222222;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: white;
+
+
+top:520px;
+}
+
+.logo1 {
+    position: absolute;
+width: 212px;
+height: 80px;
+left: 950px;
+top: 50px;
+}
+
