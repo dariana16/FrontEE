@@ -1,35 +1,38 @@
 * {
     font-family: 'Roboto', sans-serif;
-}
+    }
 
 .menu {
-    display: flex;
+    display: block;
     justify-content: flex-end;
     background-color: #222222;
     color:  #F3F3F3;
-    position: relative;
+    position: absolute;
 width: 100%;
 height: 100px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-p{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 15px ;
-    margin-left: 20px;
-
+.categorias {
+    position: absolute;
+    display: block;
+    justify-content: flex-end;
+    height: 19px;
+left: 900px;
+top: 40px;
+margin-left: 45px;
 }
 
 main {
-    background-color: #d63636;
-    display: flex;
-    justify-content:stretch;
+    display: inline-block;
+    flex-direction: row;
+    justify-content:space-between;
 }
+
 
 .logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     position: absolute;
 width: 234px;
 height: 80px;
@@ -40,23 +43,37 @@ top: 10px;
 
 .delivery {
     position: absolute;
+    z-index: -1;
 width: 490px;
 height: 350px;
 left: 19px;
-top: 135px;
+top:0ch;
+
 border-radius: 5px;
 }
 .promo {
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
+    z-index: 1;
     width: 400px;
 height: 28px;
-left: 38.98px;
-top: 155px;
+left: 120px;
+top: 140px;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 28px;
 color: #FC200C;
+}
+
+p{
+    display: inline-block;
+    position: absolute;
+width: 400px;
+height: 90px;
+left: 40px;
+top: -2px;
 }
 
 .medio {
@@ -65,21 +82,24 @@ color: #FC200C;
 }
 
 .pizza {
-    position: absolute;
+position: absolute;
+display: flex;
+justify-content: space-evenly;
 width: 491px;
 height: 350px;
-left: 550px;
+left: 650px;
 top: 135px;
 background: #FFFFFF;
 border-radius: 5px;
 font-weight: bold;
 font-style: normal;
-
+display: inline;
 }
 
 .titulo {
     line-height: 30px;
 }
+
 .pfall {
     display: flex;
     justify-content: flex-start;
@@ -102,17 +122,23 @@ width: 99%;
 height: 150px;
 background: #222222;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-color: white;
-
-
+color:  white;
 top:520px;
 }
 
 .logo1 {
-    position: absolute;
+position: absolute;
 width: 212px;
 height: 80px;
 left: 950px;
 top: 50px;
 }
 
+.final {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+margin-bottom: 10px;
+
+
+}
