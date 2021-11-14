@@ -59,6 +59,7 @@ line-height: 47px;
 right: 0%;
 top: 4.25%;
 bottom: 6.25%;
+color: red;
 }
 
 .imgb {
@@ -128,7 +129,6 @@ footer {
     background-color:#00669F;
     color: #F3F3F3;
     width: 100%;
-height: 51px;
 left: 0px;
 top: 1000px;
 font-style: normal;
